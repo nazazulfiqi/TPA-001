@@ -123,6 +123,7 @@ nav .nav-list li .btn:hover {
 
 .container{
     margin-top: 30px;
+
 }
 
 .container .hero-text{
@@ -198,11 +199,16 @@ span{
 
 .bottom{
     margin-top: 70px;
-
 }
 
 .bottom p{
     color: #eee;
     letter-spacing: 2px;
     font-size: 15px;
+}
+
+@media screen and (max-width: 770px){
+    .container .hero-text h1 {
+        font-size: 24px;
+    }
 }
